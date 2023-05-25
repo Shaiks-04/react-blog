@@ -1,0 +1,50 @@
+.nav{
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+}
+
+.black{
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.horizontaline{
+    width: 60%;
+    height: 1px;
+    margin-left: 299px;
+    background-color: gray;
+}
+.the{
+    color: #000000;
+    transform: rotate(-90deg);
+    width: 48px;
+    height: 63px;
+    display: block;
+    margin-top: 2%;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;   
+}
+
+@media (min-width:0px) and (max-width:600px){
+    .upar{
+        margin-top: 9%;
+        width: 830px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 130px;
+        gap: 529px;
+
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    
+}

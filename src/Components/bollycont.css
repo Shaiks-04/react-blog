@@ -72,7 +72,7 @@ li{
     margin-left: -122px;
 }
 
-@media (min-width:0px) and (max-width:600px){
+@media (min-width:362px) and (max-width:600px){
     .the{
         margin-left: -88px;
         padding: 84px;

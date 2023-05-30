@@ -26,7 +26,7 @@ function Hollyfour() {
         </div>
         <img src="https://freepngimg.com/thumb/social_media/74031-instagram-icons-media-youtube-computer-facebook-social-thumb.png" alt="logos" className='logos'/>
     </div>
-    <img src="../fast-x.jpeg" className="bolimg" alt="purple scene" />
+    <div className='image-container'><img src="../fast-x.jpeg" className="bolimg" alt="purple scene" /></div>
     <p></p>
 </div>
 
@@ -34,11 +34,11 @@ function Hollyfour() {
   
   <div className='cast3'>
   <h3>The Cast : </h3>
-    <p>{a.castbear1}</p>
-    <p>{a.castbear2}</p>
-    <p>{a.castbear3}</p>
-    <p>{a.castbear4}</p>
-    <p>{a.castbear5}</p>
+    <p>{a.fast1}</p>
+    <p>{a.fast2}</p>
+    <p>{a.fast3}</p>
+    <p>{a.fast4}</p>
+    <p>{a.fast5}</p>
   </div>
   <div className='movie1'>
     <ul>

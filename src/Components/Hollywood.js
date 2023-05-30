@@ -1,4 +1,4 @@
-import React,{useContext} from 'react'
+import React,{useContext,useEffect} from 'react'
 import NoteContext from './Context/NoteContext'
 import Nav from './Nav'
 import './container.css'
@@ -7,10 +7,17 @@ import { Link } from 'react-router-dom'
 
 
 
-
+  
 
 function Hollywood() {
   const a = useContext(NoteContext)
+  useEffect(() => {
+    document.body.style.backgroundColor='grey';
+    
+    return () => {
+      document.body.style.backgroundColor = '';
+    };
+  }, []);
 
   return (
     <>
@@ -26,7 +33,7 @@ function Hollywood() {
        <div className="containercontent">
           <div className="contentcard">
           <Link to='/Hollywood/Hollyone'>
-          <img src="https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_FMjpg_UX1000_.jpg" className="bolimg" alt="purple scene" />
+          <div className='image-container'><img src="https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_FMjpg_UX1000_.jpg" className="bolimg" alt="purple scene" /></div>
           </Link>
             <div className='pcontent'>
               <p className='p1content'>{a.cardevil}</p>
@@ -36,7 +43,7 @@ function Hollywood() {
 
           <div className="contentcard">
           <Link to='/Hollywood/Hollytwo'>
-          <img src="https://m.media-amazon.com/images/M/MV5BODBjM2M4YTQtNmJlMS00MGU2LWI4ZGYtZTA1MzdmZDAyMjFkXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" className="bolimg" alt="purple scene" />
+          <div className='image-container'><img src="https://m.media-amazon.com/images/M/MV5BODBjM2M4YTQtNmJlMS00MGU2LWI4ZGYtZTA1MzdmZDAyMjFkXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" className="bolimg" alt="purple scene" /></div>
           </Link>
           <div className='pcontent'>
               <p className='p1content'>{a.cardscream}</p>
@@ -46,7 +53,7 @@ function Hollywood() {
 
           <div className="contentcard">
           <Link to='/Hollywood/Hollythree'>
-          <img src="https://m.media-amazon.com/images/M/MV5BYWRmNmUxZjItNzJjZS00ZGI1LWFkNmMtMzEzM2NhZmMxMzVlXkEyXkFqcGdeQXVyMTIxNzk0MTY@._V1_.jpg" className="bolimg" alt="purple scene" />
+          <div className='image-container'><img src="https://m.media-amazon.com/images/M/MV5BYWRmNmUxZjItNzJjZS00ZGI1LWFkNmMtMzEzM2NhZmMxMzVlXkEyXkFqcGdeQXVyMTIxNzk0MTY@._V1_.jpg" className="bolimg" alt="purple scene" /></div>
           </Link>
           <div className='pcontent'>
               <p className='p1content'>{a.cardvoyage}</p>
@@ -59,7 +66,7 @@ function Hollywood() {
         <div className="conctnts">
             <div className="conctnt">
             <Link to='/Hollywood/Hollyfour'>
-          <img src="../fast-x.jpeg" className="bolimg" alt="purple scene" />
+          <div className='image-container'><img src="../fast-x.jpeg" className="bolimg" alt="purple scene" /></div>
               </Link>
               <div className='pcontent1'>
                 <p className='p1'>{a.cardbear}</p>
@@ -69,7 +76,7 @@ function Hollywood() {
   
             <div className="conctnt">
             <Link to='/Hollywood/Hollyfive'>
-          <img src="https://cdn.kinocheck.com/i/qq8i2hy9pk.jpg" className="bolimg" alt="purple scene" />
+          <div className='image-container'><img src="https://cdn.kinocheck.com/i/qq8i2hy9pk.jpg" className="bolimg" alt="purple scene" /></div>
           </Link>
               <div className='pcontent1'>
                   <p className='p1'>{a.cardinsidious}</p>
@@ -79,7 +86,7 @@ function Hollywood() {
 
             <div className="conctnt">
             <Link to='/Hollywood/Hollysix'>
-          <img src="https://tvline.com/wp-content/uploads/2023/02/the-marvels-poster.png" className="bolimg" alt="purple scene" />
+          <div className='image-container'><img src="https://tvline.com/wp-content/uploads/2023/02/the-marvels-poster.png" className="bolimg" alt="purple scene" /></div>
           </Link>
               <div className='pcontent1'>
                 <p className='p1'>{a.cardmarvel}</p>

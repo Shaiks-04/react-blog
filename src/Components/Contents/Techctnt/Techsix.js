@@ -19,7 +19,7 @@ function Techsix() {
         <hr />
         <div className='insidehead'>
           <div className='insides'>
-            <div><img src="https://img.freepik.com/premium-photo/sute-girl-hacker-with-laptop-avatar-cartoon-style-black-background-generated-ai_88188-3324.jpg" alt="avatar"  className='avatar'/></div>
+            <div className='image-container'><img src="https://img.freepik.com/premium-photo/sute-girl-hacker-with-laptop-avatar-cartoon-style-black-background-generated-ai_88188-3324.jpg" alt="avatar"  className='avatar'/></div>
             <div>
               <p>SHAIK</p>
               <p>May 23 2023</p>

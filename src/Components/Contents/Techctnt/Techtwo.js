@@ -19,15 +19,14 @@ function Techtwo() {
         <hr />
         <div className='insidehead'>
           <div className='insides'>
-            <div><img src="https://images-platform.99static.com/jQu2xohritutSVmnVq7np7rbkxg=/0x0:1920x1920/500x500/top/smart/99designs-contests-attachments/106/106359/attachment_106359975" alt="avatar"  className='avatar'/></div>
+            <div className='image-container'><img src="https://img.freepik.com/premium-photo/sute-girl-hacker-with-laptop-avatar-cartoon-style-black-background-generated-ai_88188-3324.jpg" alt="avatar"  className='avatar'/></div>
             <div>
-              <p>Saya</p>
-              <p>April 08 2023</p>
+              <p>SHAIK</p>
+              <p>May 23 2023</p>
             </div>
             </div>
-            <img src="https://freepngimg.com/thumb/social_media/74031-instagram-icons-media-youtube-computer-facebook-social-thumb.png" alt="logos" className='logos'/>
-        </div>
-        <img src="https://media.nationthailand.com/uploads/images/md/2023/02/LnHGoajYyVef4oiO3bbg.webp?x-image-process=style/lg" className="bolimg" alt="purple scene" />
+<img src="https://freepngimg.com/thumb/social_media/74031-instagram-icons-media-youtube-computer-facebook-social-thumb.png" alt="logos" className='logos'/>        </div>
+        <div className='image-container'><img src="https://media.nationthailand.com/uploads/images/md/2023/02/LnHGoajYyVef4oiO3bbg.webp?x-image-process=style/lg" className="bolimg" alt="purple scene" /></div>
 
        
     </div>

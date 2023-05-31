@@ -35,6 +35,7 @@ function Tech() {
             <div className='pcontent'>
               <p className='p1content'>{a.cardnocode}</p>
               <p className='p2content'>{a.desccardnocode}</p>
+              <hr className='mainhr4'/>
             </div>
           </div>
 
@@ -45,6 +46,7 @@ function Tech() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardchat}</p>
               <p className='p2content'>{a.desccardchat}</p>
+              <hr className='mainhr4'/>
           </div>
           </div>
 
@@ -55,6 +57,7 @@ function Tech() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardmeta}</p>
               <p className='p2content'>{a.desccardmeta}</p>
+              <hr className='mainhr4'/>
             </div>        
           </div>          
         </div>
@@ -69,6 +72,7 @@ function Tech() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardgreen}</p>
                 <p className='p2'>{a.desccardgreen}</p>
+                <hr className='mainhr4'/>
               </div>
             </div>
   
@@ -79,6 +83,7 @@ function Tech() {
               <div className='pcontent1'>
                   <p className='p1'>{a.carddigitwin}</p>
                   <p className='p2'>{a.desccarddigitwin}</p>
+                  <hr className='mainhr4'/>
               </div>
             </div>
 

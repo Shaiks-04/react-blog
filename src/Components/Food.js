@@ -37,6 +37,7 @@ function Food() {
             <div className='pcontent'>
               <p className='p1content'>{a.cardindian}</p>
               <p className='p2content'>{a.desccardindian}</p>
+              <hr className='mainhr3'/>
             </div>
           </div>
 
@@ -48,6 +49,7 @@ function Food() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardchinese}</p>
               <p className='p2content'>{a.desccardchinese}</p>
+              <hr className='mainhr3'/>
             </div>
           </div>
 
@@ -58,6 +60,7 @@ function Food() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardfrench}</p>
               <p className='p2content'>{a.desccardfrench}</p>
+              <hr className='mainhr3'/>
             </div>        
           </div>          
         </div>
@@ -71,6 +74,7 @@ function Food() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardspanish}</p>
                 <p className='p2'>{a.desccardspanish}</p>
+                <hr className='mainhr3'/>
               </div>
             </div>
   
@@ -81,6 +85,7 @@ function Food() {
               <div className='pcontent1'>
                   <p className='p1'>{a.cardmexican}</p>
                   <p className='p2'>{a.desccardmexican}</p>
+                  <hr className='mainhr3'/>
               </div>
             </div>
 

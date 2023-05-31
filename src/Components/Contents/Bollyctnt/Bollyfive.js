@@ -15,7 +15,7 @@ function Bollyfive() {
 
     <div className='container'> 
         <h2 className='gl'>{a.cardbhola}</h2>
-        <hr />
+        <hr className='hrmm' />
         <div className='insidehead'>
           <div className='insides'>
             <div className='image-container'><img src="https://img.freepik.com/premium-photo/sute-girl-hacker-with-laptop-avatar-cartoon-style-black-background-generated-ai_88188-3324.jpg" alt="avatar"  className='avatar'/></div>
@@ -48,7 +48,7 @@ function Bollyfive() {
       </div>
     </div>
 <div className="h3">
-    <h3 style={{textAlign:'left',marginLeft:'300px',marginTop:'3%'}}>The Plot : </h3>
+    <h3 style={{textAlign:'left',marginLeft:'300px',marginTop:'3%',width:'100px'}}>The Plot : </h3>
     </div>
     <div className='content'>
       <p>{a.contentbholaa1}</p>

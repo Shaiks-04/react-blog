@@ -38,6 +38,7 @@ function Hollywood() {
             <div className='pcontent'>
               <p className='p1content'>{a.cardevil}</p>
               <p className='p2content'>{a.desccardevil}</p>
+              <hr className='mainhr2'/>
             </div>
           </div>
 
@@ -48,6 +49,7 @@ function Hollywood() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardscream}</p>
               <p className='p2content'>{a.desccardscream}</p>
+              <hr className='mainhr2'/>
             </div>
           </div>
 
@@ -58,6 +60,7 @@ function Hollywood() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardvoyage}</p>
               <p className='p2content'>{a.desccardvoyage}</p>
+              <hr className='mainhr2'/>
             </div>        
           </div>          
         </div>
@@ -71,6 +74,7 @@ function Hollywood() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardbear}</p>
                 <p className='p2'>{a.desccardbear}</p>
+                <hr className='mainhr22'/>
               </div>
             </div>
   
@@ -81,6 +85,7 @@ function Hollywood() {
               <div className='pcontent1'>
                   <p className='p1'>{a.cardinsidious}</p>
                   <p className='p2'>{a.desccardinsidious}</p>
+                  <hr className='mainhr22'/>
               </div>
             </div>
 

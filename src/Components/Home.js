@@ -30,44 +30,45 @@ function Home() {
           </div>
       </div>
       <div className='container1'>
-        <h1 className='head'>The Latest</h1>
+        <h1 className='head' id='head1'>The Latest</h1>
         <hr className='hr1' />
         <div className='flex'>
         <div className='thelatest'>
           <div className="middle">
             <Link to='/food/foodThree'>
-             <div className='image-container'><img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQSFqbWlV7IqvASUvK-OTW9ljoDeJa1lCkSKYSXH7YY1SAQ-y1ZIYIYCUcPyHsYsRaBO5SoNZNmxAMTWmo" className="img" alt="purple scene" /></div>
+             <div className='image-container'><img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQSFqbWlV7IqvASUvK-OTW9ljoDeJa1lCkSKYSXH7YY1SAQ-y1ZIYIYCUcPyHsYsRaBO5SoNZNmxAMTWmo" id="mid" className="img" alt="purple scene" /></div>
             </Link>
             <div className='middlecontent'>
               {/* content */}
-              <h3 className='card1'>French Cuisne</h3>
-              <p className='card1para'>Many people consider French food to be among the best in the world.</p>
-              <p className='card1footer'>Food <span className='light'>/ May 23 2023</span></p>
+              <h3 className='card1' id='card11'>French Cuisne</h3>
+              <p className='card1para' id='card1para1'>Many people consider French food to be among the best in the world.</p>
+              <p className='card1footer' id='card1footer1'>Food <span className='light'>/ May 23 2023</span></p>
             </div>
           </div>
           <hr className='hrm2'/>
           <div className="middle">
             <Link to='/bollywood/Bollythree'>
-              <div className='image-container'><img src="https://m.media-amazon.com/images/M/MV5BYjBkMGE5ZjEtOTdkNC00OTA5LWIzOWQtMmJmODRlMmRhM2YxXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg" className="img" alt="purple scene" /></div>
+              <div className='image-container'><img src="https://m.media-amazon.com/images/M/MV5BYjBkMGE5ZjEtOTdkNC00OTA5LWIzOWQtMmJmODRlMmRhM2YxXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg" id="mid" className="img" alt="purple scene" /></div>
             </Link>
             <div className='middlecontent'>
               {/* content */}
-              <h3 className='card1'>{a.cardblurr}</h3>
-              <p className='card1para'>With progressive blindness setting in, Gayatri has to find answers to her twin sister's unlikely death.</p>
-              <p className='card1footer'>Bollywood <span className='light'>/ May 23 2023</span></p>
+              <h3 className='card1' id='card11'>{a.cardblurr}</h3>
+              <p className='card1para' id='card1para1'>With progressive blindness setting in, Gayatri has to find answers to her twin sister's unlikely death.</p>
+              <p className='card1footer' id='card1footer1'>Bollywood <span className='light'>/ May 23 2023</span></p>
             </div>
           </div>
           <hr className='hrm2'/>
 
           <div className="middle">
             <Link to='/Hollywood/Hollyfive'>
-              <div className='image-container'><img src="https://cdn.kinocheck.com/i/qq8i2hy9pk.jpg" className="img" alt="purple scene" /></div>
+              <div className='image-container'><img src="https://cdn.kinocheck.com/i/qq8i2hy9pk.jpg" className="img" id="mid" alt="purple scene" /></div>
             </Link>
             <div className='middlecontent'>
               {/* content */}
-              <h3 className='card1'>{a.cardinsidious}</h3>
-              <p className='card1para'>abbreviated as TJMM, is a 2023 Indian Hindi-language romantic comedy film directed by Luv Ranjan.</p>
-              <p className='card1footer'>Hollywood <span className='light'>/May 23 2023</span></p>
+              <h3 className='card1' id='card11'>{a.cardinsidious}</h3>
+              <p className='card1para' id='card1para1'>abbreviated as TJMM, is a 2023 Indian Hindi-language romantic comedy film directed by Luv Ranjan.</p>
+              <p className='card1footer' id='card1footer1'>Hollywood <span className='light'>/May 23 2023</span></p>
+          {/* <hr className='hrm2'/> */}
             </div>
           </div>
         </div>
@@ -75,7 +76,7 @@ function Home() {
 </div>
       <div className='container'>
         <br />
-        <h1 className='head'>Latest Articles</h1>
+        <h1 className='head' >Latest Articles</h1>
         <hr className='hr1' />
         <hr className="no" style={{ width: '68%', marginBottom:'2px' }} />
 
@@ -91,8 +92,10 @@ function Home() {
                 <h3 className='card1'>{a.cardkanjoos}</h3>
                 <p className='card1para'>{a.desccardkanjos}</p>
                 <p className='card1footer'>Bollywood <span className='light'>/ May 23 2023</span></p>
+
               </div>
             </div>
+            <hr className='hrm2'/>
 
             <div className="midcons">
             <Link to='/Hollywood/Hollytwo'>
@@ -104,6 +107,8 @@ function Home() {
                 <p className='card1footer'>Hollywood <span className='light'>/ May 23 2023</span></p>
               </div>
             </div>
+            <hr className='hrm2'/>
+
             <div className="midcons">
             <Link to='/technology/Techfive'>
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi61QJ20mHNwvjBfyCIH_flxRNajQsX7e3zg&usqp=CAU" className="img" alt="purple scene" />
@@ -114,6 +119,8 @@ function Home() {
                 <p className='card1footer'>Technology <span className='light'>/ May 23 2023</span></p>
               </div>
             </div>
+            <hr className='hrm2'/>
+
             <div className="midcons">
             <Link to='/food/Foodfive'>
               <img src="../nikki.jpeg" className="img" alt="purple scene" />
@@ -125,6 +132,7 @@ function Home() {
               </div>
             </div>
           </div>
+          <hr className='hrm2'/>
 
           <div className="midcon2">
             {/* grey ad container */}
@@ -145,19 +153,21 @@ function Home() {
           <p className='card2footer'>Food <span className='light'>/ May 23 2023</span></p>
         </div>
       </div>
-      <hr style={{width:'450px', marginLeft:'850px'}}/>
+      <hr id='noo' style={{width:'450px', marginLeft:'850px'}}/>
 <div className='leftdown'>
-       <div className='small small1'>
+       <div className='small small1' id='small1'>
       <Link to='/fitness/Fitfour'>
         <img src="https://media.istockphoto.com/id/1346624734/vector/child-boy-in-sportswear-running-fast-flat-cartoon-vector-illustration-isolated.jpg?s=170667a&w=0&k=20&c=VmsXRxNqidqMpSDlAMm6BwN0kR-mmHVmVC-8SUfW7PU=" className="imgright" alt="purple scene" />
         </Link>
         <div className='ctnt'>
           <h3 className='cardctntright'>{a.cardrunning}</h3>
           <p className='cardfooterright'>Fitness <span className='light'>/ May 23 2023</span></p>
-      <hr className='hr2'/>
+      <hr id="dow" className='hr2'/>
 
         </div>
       </div>
+      <hr id="downhr" />
+      
       {/* <hr style={{width:'450px', marginLeft:'850px'}}/> */}
 
       <div className='small small1'>
@@ -170,9 +180,11 @@ function Home() {
         </div>
         <div className='fit'>
         <p className='cardfooterright1'>Fitness<span className='light'>/ May 23 2023</span></p>
-      <hr style={{width:'450px', marginLeft:'-370px',marginTop:'50px'}}/>
+      <hr id='dow' style={{width:'450px', marginLeft:'-370px',marginTop:'50px'}}/>
         </div>
       </div>
+      <hr id="downhr" />
+
       <div className='small small2'>
       <Link to='/fitness/Fitfive'>
         <img src="https://media.istockphoto.com/id/1359291135/vector/sport-road-cyclists.jpg?s=612x612&w=0&k=20&c=3wNqA5gh5wVNwjnjRuG7yhey8jNbTWKmmT5dky8wtkI=" className="imgright2" alt="purple scene" />
@@ -184,7 +196,8 @@ function Home() {
         <p className='cardfooterright2'>Fitness <span className='light'>/ May 23 2023</span></p></div>
       </div>
       </div>
-      <hr style={{width:'450px', marginLeft:'850px'}}/>
+      <hr id='dow'style={{width:'450px', marginLeft:'850px'}}/>
+      <hr id="downhr" />
 
       <div className='lastimg'>
       <Link to='/technology/Techthree'>
@@ -192,6 +205,7 @@ function Home() {
 </Link>
         <h3 className='cardctnt'>{a.cardmeta}</h3>
         <p className='cardfooter'>Technology <span className='light'>/ May 23 2023</span></p>
+        <hr className='markhr'/>
       </div> 
       <Footer/>
     </>

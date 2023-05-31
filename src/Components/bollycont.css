@@ -9,6 +9,9 @@
     margin-left: 5%;
     color: black;
 }
+#plot1{
+    display: none;
+}
 .avatar{
     height: 60px;
     width: 60px;
@@ -71,8 +74,58 @@ li{
     text-align: justify;
     margin-left: -122px;
 }
-
-@media (min-width:362px) and (max-width:600px){
+@media (max-width:370px){
+    .the2{
+        margin-left: -10px;
+        padding: 11px;
+        margin-top: 65px;
+        font-size: 20px;
+        
+    }
+    .heading2{
+        font-size: 27px;
+        margin-top: -3px;
+        margin-left: 4px;
+    }
+    .movie1{
+        position: relative;
+        left: 250px;
+        width: 320px;
+    }
+    li{
+        font-size: 18px;
+    }
+    .cast1,.castandmovie{
+        margin-left: 50px;
+        width: 600px;
+    }
+    .gl{
+        margin-left: 230px;
+        width: 250px;
+        margin-top: -10px;
+    }
+    .hrmm{
+        width: 700px;
+    }
+     .avatar{
+        height: 40px;
+        width:40px;
+        margin-top: 20px;
+     }
+     .content{
+        margin-left: 50px;
+        width: 650px;
+     }
+     .logos{
+        position: relative;
+        left: 320px;
+     }
+     .bolimg{
+        height: 400px;
+        width: 650px;
+     }
+}
+@media (min-width:400px) and (max-width:800px){
     .the{
         margin-left: -88px;
         padding: 84px;
@@ -94,12 +147,13 @@ li{
         margin-left: 4px;
     }
     .gl{
-        margin-top: -12px;
+        margin-top: 12px;
         margin-bottom: 20px;
     }
     .avatar{
-        height: 20px;
-    width: 20px;
+        height: 40px;
+    width: 40px;
+    margin-top: 2px;
     }
     .distance{
         line-height: 16px;
@@ -107,19 +161,30 @@ li{
     .logos{
         height:60px;
         width:60px;
-        margin-top: -22px;
+        margin-top: -2px;
     }
     .bolimg{
-        margin-left:-50px
+        margin-left:0px;
+        /* height:350px;
+        width: 550px; */
+    }
+    #plot{
+        /* margin-left: 150px; */
+        display: none;
+    }
+    #plot1{
+        margin-left: 10px;
+        margin-top: 3%;
     }
     .castandmovie{
         display: flex;
        flex-direction: column;
         margin-top: 3%;
-        margin-left: 130px;
+        margin-left: 200px;
     }
     .movie1{
-        margin-left: -100px;
+        margin-left: 200px;
+        margin-top: -122px;
     }
    .h3{
     margin-left: -260px;

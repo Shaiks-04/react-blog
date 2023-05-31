@@ -32,12 +32,13 @@ function Bollywood() {
           <div className="contentcard">
 
           <Link to='/bollywood/Bollyone'>
-          <div className='image-container'><img src="https://images.livemint.com/img/2023/03/21/600x338/The-film-has-been-produced-by-Tips-Films-and-Music_1679375273338.png" className="bolimg" alt="purple scene" /></div>
+          <div className='image-container'><img src="https://images.livemint.com/img/2023/03/21/600x338/The-film-has-been-produced-by-Tips-Films-and-Music_1679375273338.png" className="bolimg imgm" alt="purple scene" /></div>
           </Link>
 
             <div className='pcontent'>
               <p className='p1content'>{a.cardgaslight}</p>
               <p className='p2content'>{a.desccardgaslight}</p>
+          <hr className='mainhr1'/>
             </div>
           </div>
 
@@ -51,6 +52,7 @@ function Bollywood() {
             
               <p className='p1content'>{a.cardkanjoos}</p>
               <p className='p2content'>{a.desccardkanjos}</p>
+              <hr className='mainhr1'/>
             </div>
           </div>
 
@@ -61,6 +63,7 @@ function Bollywood() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardblurr}</p>
               <p className='p2content'>{a.desccardblurr}</p>
+              <hr className='mainhr1'/>
             </div>        
           </div>          
         </div>
@@ -74,6 +77,7 @@ function Bollywood() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardom}</p>
                 <p className='p2'>{a.desccardom}</p>
+                <hr className='mainhr1'/>
               </div>
             </div>
   
@@ -84,6 +88,7 @@ function Bollywood() {
               <div className='pcontent1'>
                   <p className='p1'>{a.cardbhola}</p>
                   <p className='p2'>{a.desccardbhola}</p>
+                  <hr className='mainhr1'/>
               </div>
             </div>
 
@@ -94,6 +99,7 @@ function Bollywood() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardyodha}</p>
                 <p className='p2'>{a.desccardyodha}</p>
+                <hr className='mainhr1'/>
               </div>
             </div>
           </div>

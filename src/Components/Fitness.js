@@ -37,9 +37,9 @@ function Fitness() {
             <div className='pcontent'>
               <p className='p1content'>{a.cardyoga}</p>
               <p className='p2content'>{a.descardyoga}</p>
+          <hr className='mainhr'/>
             </div>
           </div>
-
           <div className="contentcard">
           <Link to='/fitness/Fittwo'>
           <div className='image-container'><img src="https://cdn.shopify.com/s/files/1/0066/7569/3639/articles/Blog93-Tips_on_How_to_Increase_Deep_Sleep_iStock-925672018.jpg?v=1650483356&width=1000" className="bolimg" alt="purple scene" /></div>
@@ -47,6 +47,8 @@ function Fitness() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardsleep}</p>
               <p className='p2content'>{a.desccardsleep}</p>
+          <hr className='mainhr'/>
+              
             </div>
           </div>
 
@@ -57,6 +59,7 @@ function Fitness() {
           <div className='pcontent'>
               <p className='p1content'>{a.cardvege}</p>
               <p className='p2content'>{a.desccardvege}</p>
+          <hr className='mainhr'/>
             </div>        
           </div>          
         </div>
@@ -70,6 +73,7 @@ function Fitness() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardrunning}</p>
                 <p className='p2'>{a.desccardrunning}</p>
+          <hr className='mainhr'/>
               </div>
             </div>
   
@@ -80,6 +84,7 @@ function Fitness() {
               <div className='pcontent1'>
                   <p className='p1'>{a.cardcycle}</p>
                   <p className='p2'>{a.desccard}</p>
+          <hr className='mainhr'/>
               </div>
             </div>
 
@@ -90,6 +95,7 @@ function Fitness() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardhealthy}</p>
                 <p className='p2'>{a.desccardhealthy}</p>
+          <hr className='mainhr'/>
               </div>
             </div>
           </div>

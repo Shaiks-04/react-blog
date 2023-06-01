@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import '../../.././Components/bollycont.css'
 import NoteContext from '../../Context/NoteContext'
 import { Link } from 'react-router-dom'
-
 function Techfour() {
   const a = useContext(NoteContext)
 

@@ -89,9 +89,9 @@
         /* border-radius: 15px; */
         /* flex-direction: column; */
         gap:10px;
-        margin-left: 60px;
+        margin-left: 30px;
         width: 1200px;
-        background-color: rgb(168, 166, 166); 
+        /* background-color: rgb(168, 166, 166);  */
     }
     .the{
         font-size: 50px;
@@ -104,10 +104,7 @@
         font-size: 35px;
     }
     .horizontaline{
-        /* display:none; */
-        width: 1300px;
-        margin-left: 0px;
+        width: 1200px;
+        margin-left: 60px;
     }
-   
-    
 }

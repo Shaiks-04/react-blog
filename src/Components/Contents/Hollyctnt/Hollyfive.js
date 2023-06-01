@@ -31,6 +31,7 @@ function Hollyfive() {
     <p></p>
 </div>
 
+<div className='gray'>
 <div className='castandmovie'>
   
   <div className='cast2'>
@@ -48,7 +49,8 @@ function Hollyfive() {
   </div>
 </div>
 <div className="h3">
-    <h3 style={{textAlign:'left',marginLeft:'300px',marginTop:'3%',width:'100px'}}>The Plot : </h3>
+<h3 id='plot' style={{textAlign:'left',marginLeft:'300px', marginTop:'3%',width:'100px'}}>The Plot : </h3>
+    <h3 id='plot1' >The Plot : </h3>
 </div>
 <div className='content'>
   <p>{a.contentinsidious1}</p>
@@ -56,7 +58,7 @@ function Hollyfive() {
   <p>{a.contentinsidious3}</p>
 </div>
 
-
+</div>
     </>
   )
 }

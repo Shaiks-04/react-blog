@@ -4,6 +4,7 @@ import Nav from './Nav'
 import './container.css'
 import './bolly.css'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 
 function Tech() {
@@ -104,6 +105,7 @@ function Tech() {
             
 
         </div>
+          <Footer/>
     </>
   )
 }

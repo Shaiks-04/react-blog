@@ -30,7 +30,8 @@ function Bollythree() {
         <p></p>
     </div>
 
-    <div className='castandmovie'>
+    <div className='gray'>
+<div className='castandmovie'>
       
       <div className='cast'>
       <h3>The Cast : </h3>
@@ -49,14 +50,15 @@ function Bollythree() {
       </div>
     </div>
     <div className="h3">
-    <h3 style={{textAlign:'left',marginLeft:'300px',marginTop:'3%',width:'100px'}}>The Plot : </h3>
+<h3 id='plot' style={{textAlign:'left',marginLeft:'300px', marginTop:'3%',width:'100px'}}>The Plot : </h3>
+    <h3 id='plot1' >The Plot : </h3>
     </div>
     <div className='content'>
       <p>{a.contentblurr1}</p>
       <p>{a.contentblurr2}</p>
       <p>{a.contentblurr3}</p>
       <p>{a.contentblurr4}</p>
-    </div>
+    </div></div>
     </>
   )
 }

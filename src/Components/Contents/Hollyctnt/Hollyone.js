@@ -28,8 +28,8 @@ function Hollyone() {
         <div className='image-container'><img src="https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_FMjpg_UX1000_.jpg" className="bolimg" alt="purple scene" /></div>
         <p></p>
     </div>
-
-    <div className='castandmovie'>
+    <div className='gray'>
+<div className='castandmovie'>
       
       <div className='cast'>
       <h3>The Cast : </h3>
@@ -48,12 +48,13 @@ function Hollyone() {
       </div>
     </div>
     <div className="h3">
-    <h3 id='plot' style={{textAlign:'left',marginLeft:'500px', marginTop:'3%',width:'100px'}}>The Plot : </h3>
+    <h3 id='plot' style={{textAlign:'left',marginLeft:'300px', marginTop:'3%',width:'100px'}}>The Plot : </h3>
     <h3 id='plot1' >The Plot : </h3>
     </div>
     <div className='content'>
       <p>{a.contentevil1}</p>
       <p>{a.contentevil2}</p>
+    </div>
     </div>
 
     </>

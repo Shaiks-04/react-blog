@@ -30,6 +30,7 @@ function Hollyfour() {
     <p></p>
 </div>
 
+<div className='gray'>
 <div className='castandmovie'>
   
   <div className='cast3'>
@@ -49,12 +50,14 @@ function Hollyfour() {
   </div>
 </div>
 <div className="h3">
-    <h3 style={{textAlign:'left',marginLeft:'300px',marginTop:'3%',width:'100px'}}>The Plot : </h3>
+<h3 id='plot' style={{textAlign:'left',marginLeft:'300px', marginTop:'3%',width:'100px'}}>The Plot : </h3>
+    <h3 id='plot1' >The Plot : </h3>
 </div>
 <div className='content'>
   <p>{a.contentbear1}</p>
   <p>{a.contentbear2}</p>
   <p>{a.contentbear3}</p>
+</div>
 </div>
     </>
   )

@@ -3,6 +3,7 @@ import '../../.././Components/bollycont.css'
 import NoteContext from '../../Context/NoteContext'
 import { Link } from 'react-router-dom'
 
+
 function Techone() {
   const a = useContext(NoteContext)
   return (

@@ -39,7 +39,7 @@
 }
 .content{
     height: fit-content;
-    width: 60%;
+    width: 80%;
     text-align: justify;
     margin: auto;
 }
@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: column;
     gap: 22px;
-    margin-left: -499px;
+    margin-left: -299px;
 }
 li{
     font-size: 27px;
@@ -89,14 +89,14 @@ li{
     }
     .movie1{
         position: relative;
-        left: 250px;
+        left: 150px;
         width: 320px;
     }
     li{
         font-size: 18px;
     }
     .cast1,.castandmovie{
-        margin-left: 50px;
+        margin-left: 30px;
         width: 600px;
     }
     .gl{
@@ -112,6 +112,10 @@ li{
         width:40px;
         margin-top: 20px;
      }
+     .gray{
+        margin-left: 40px;
+        width: 720px;
+     }
      .content{
         margin-left: 50px;
         width: 650px;
@@ -126,17 +130,18 @@ li{
      }
 }
 @media (min-width:400px) and (max-width:800px){
-    .the{
+    /* .the{
         margin-left: -88px;
         padding: 84px;
         margin-top: 66px;
     } 
+        
     .heading{
         font-size: 58px;
         margin-top: -210px;
         margin-left: -147px;
-    }
-    .the2{
+    } */
+    /* .the2{
         margin-left: -20px;
         padding: 11px;
         margin-top: 66px;
@@ -145,7 +150,10 @@ li{
         font-size: 27px;
         margin-top: -3px;
         margin-left: 4px;
-    }
+    } */
+    /* .nav{
+        margin-right: 20px;
+    } */
     .gl{
         margin-top: 12px;
         margin-bottom: 20px;
@@ -174,7 +182,7 @@ li{
     }
     #plot1{
         margin-left: 10px;
-        margin-top: 3%;
+        margin-top: 5%;
     }
     .castandmovie{
         display: flex;
@@ -183,8 +191,12 @@ li{
         margin-left: 200px;
     }
     .movie1{
-        margin-left: 200px;
+        margin-left: 320px;
         margin-top: -122px;
+        margin-bottom: 20px;
+    }
+    li{
+        font-size: 20px;
     }
    .h3{
     margin-left: -260px;
@@ -199,8 +211,27 @@ li{
    .cast3{
     margin-left: -89px;
    }
-   .horizontaline{
-    display: none;
+   .containercontent{
+    gap: 82px;
    }
+   .advertisement{
+    height: 800px;
+    width: 900px;
+    margin-left: 20px;
+   }
+   #plot1{
+    display: block;
+    margin-left: -92px;
+   }
+   .content{
+    margin-left: 72px;
+    width: 600px;
+   }
+   .gray{
+    background-color: aliceblue;
+    width: 720px;
+    margin-left: 30px;
+   }
+  
 }
 

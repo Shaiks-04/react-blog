@@ -30,7 +30,8 @@ function Bollyfour() {
         <p></p>
     </div>
 
-    <div className='castandmovie'>
+    <div className='gray'>
+<div className='castandmovie'>
       
       <div className='cast'>
       <h3>The Cast : </h3>
@@ -58,7 +59,7 @@ function Bollyfour() {
       <p>{a.contentom2}</p>
       <p>{a.contentom3}</p>
       <p>{a.contentom4}</p>
-    </div>
+    </div></div>
     </>
   )
 }

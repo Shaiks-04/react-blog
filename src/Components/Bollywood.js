@@ -4,6 +4,7 @@ import './bolly.css'
 import './container.css'
 import { Link } from 'react-router-dom'
 import NoteContext from './Context/NoteContext'
+import Footer from './Footer'
 
 
 
@@ -99,7 +100,6 @@ function Bollywood() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardyodha}</p>
                 <p className='p2'>{a.desccardyodha}</p>
-                <hr className='mainhr1'/>
               </div>
             </div>
           </div>
@@ -113,6 +113,7 @@ function Bollywood() {
         
         
       </div>      
+          <Footer className='foo'/>
     </>
   )
 }

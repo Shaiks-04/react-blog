@@ -4,6 +4,7 @@ import './container.css'
 import './bolly.css'
 import NoteContext from './Context/NoteContext'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 
 
@@ -95,7 +96,6 @@ function Fitness() {
               <div className='pcontent1'>
                 <p className='p1'>{a.cardhealthy}</p>
                 <p className='p2'>{a.desccardhealthy}</p>
-          <hr className='mainhr'/>
               </div>
             </div>
           </div>
@@ -106,6 +106,7 @@ function Fitness() {
             
 
         </div>
+        <Footer/>
     </>
   )
 }

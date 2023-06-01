@@ -29,7 +29,8 @@ function Bollyfive() {
         <p></p>
     </div>
 
-    <div className='castandmovie'>
+    <div className='gray'>
+<div className='castandmovie'>
       
       <div className='cast'>
       <h3>The Cast : </h3>
@@ -48,14 +49,15 @@ function Bollyfive() {
       </div>
     </div>
 <div className="h3">
-    <h3 style={{textAlign:'left',marginLeft:'300px',marginTop:'3%',width:'100px'}}>The Plot : </h3>
+<h3 id='plot' style={{textAlign:'left',marginLeft:'300px', marginTop:'3%',width:'100px'}}>The Plot : </h3>
+    <h3 id='plot1' >The Plot : </h3>
     </div>
     <div className='content'>
       <p>{a.contentbholaa1}</p>
       <p>{a.contentbholaa2}</p>
       <p>{a.contentbholaa3}</p>
       <p>{a.contentbholaa4}</p>
-    </div>
+    </div></div>
     </>
   )
 }

@@ -1,0 +1,271 @@
+.containerhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hr11 {
+    background-color: rgb(190, 7, 7);
+    height: 3px;
+    width: 45%;
+    margin-left: 2px;
+    margin-top: 0%;
+    border-color: rgb(190, 7, 7);
+}
+
+.mainhr,
+.mainhr1,
+.mainhr2,
+.mainhr22,
+.mainhr3,
+.mainhr4 {
+    display: none;
+}
+
+.containercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+}
+
+.contentcard,
+.bolimg {
+    height: 300px;
+    width: 300px;
+
+}
+
+.pcontent {
+    margin-top: 14px;
+}
+
+.p1content {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.p2content {
+    text-align: left;
+    font-size: 17px;
+}
+
+.p1 {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 23px;
+
+}
+
+.p2 {
+    text-align: left;
+    font-size: 17px;
+}
+
+.anothercontainercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 373px;
+}
+
+.conctnts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+    margin-top: 200px;
+}
+#head22,#left22 {
+   display: none;
+}
+.hrt,.bl{
+    display: none;
+}
+
+.conctnt {
+    height: 300px;
+    width: 300px;
+
+}
+
+.pcontent1 {
+    margin-left: 330px;
+    width: 300px;
+    margin-top: -303px;
+}
+
+.advertisement {
+    /* background-color: grey; */
+    background-image: url('https://www.animationxpress.com/wp-content/uploads/2015/03/Frooti-2.gif');
+    /* background-repeat: no-repeat; */
+    height: 900px;
+    width: 70%;
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+@media (max-width:400px) {
+    .mainhr {
+        display: block;
+        width: 340px;
+        position: relative;
+        top: 10px;
+        right: 10px;
+        background-color: rgba(24, 23, 23, 0.993);
+    }
+
+    .mainhr3 {
+        display: block;
+        width: 340px;
+        position: relative;
+        top: 10px;
+        right: 20px;
+        background-color: rgba(24, 23, 23, 0.993);
+    }
+
+    .mainhr1 {
+        display: block;
+        width: 340px;
+        position: relative;
+        top: 10px;
+        right: 10px;
+        background-color: rgba(24, 23, 23, 0.993);
+    }
+
+    .mainhr2 {
+        display: block;
+        width: 340px;
+        position: relative;
+        top: 10px;
+        right: 10px;
+        background-color: 2px solid rgba(0, 0, 0, 0.993);
+    }
+
+    .mainhr4 {
+        display: block;
+        width: 340px;
+        position: relative;
+        top: 10px;
+        right: 5px;
+
+        left: -20px;
+        background-color: 2px solid rgb(235, 63, 63);
+    }
+
+    .mainhr22 {
+        display: block;
+        width: 350px;
+        position: relative;
+        top: 10px;
+        right: 5px;
+        background-color: 2px solid rgba(0, 0, 0, 0.993);
+    }
+    .hrt {
+        display: block;
+        background-color: rgb(190, 7, 7);
+        border-color: rgb(190, 7, 7);
+        height: 3px;
+        width: 150px;
+        margin-left: -40px;
+        margin-bottom: 12%;
+    }
+    .bl{
+        display: block;
+        margin-left: -190px;
+        margin-top: -20px;
+    }
+
+    .advertisement {
+        display: none;
+    }
+
+    .containercontent {
+        display: block;
+    }
+
+    .compcontainer {
+        margin-top: 0px;
+    }
+
+    .contentcard {
+        width: 283px;
+        margin-left: -14px;
+        margin-bottom: 60px;
+    }
+
+    .anothercontainercontent {
+        margin-left: -46px;
+        margin-top: -200px;
+        margin-bottom: -500px;
+    }
+
+    .pcontent {
+        width: 234px;
+    }
+
+    .pcontent1 {
+        margin-top: -110px;
+        margin-left: 240px;
+        width: 180px;
+    }
+
+    #imgr {
+        height: 200px;
+        width: 300px;
+        margin-left: -12px;
+    }
+
+    .p1content {
+        font-size: 20px;
+        width: 280px;
+        /* margin-top: -20px; */
+    }
+
+    .p1 {
+        font-size: 16px;
+        width: 200px;
+        /* margin-top: -150px; */
+    }
+
+    .p2content {
+        font-size: 15px;
+        width: 280px;
+    }
+
+    #p2 {
+        font-size: 12px;
+        width: 180px;
+    }
+
+    #imgm {
+        height: 200px;
+        width: 250px;
+    }
+
+    .bolimg {
+        height: 100px;
+        width: 150px;
+    }
+
+    .conctnt {
+        margin-left: -180px;
+        margin-bottom: -220px;
+
+    }
+    #head22{
+        margin-left: -40px;
+        width: 220px;
+    }
+    #left22 {
+        margin-top: -20px;
+        margin-left: -112px;
+        font-size: 25px;
+    }
+}

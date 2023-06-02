@@ -1,0 +1,155 @@
+.nav {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    margin-bottom: 12px;
+    font-family: 'PT Serif', serif;
+
+}
+#pc{
+    display: none;
+}
+.nav1 {
+    display: none;
+}
+
+.three,
+.hrm {
+    display: none;
+}
+
+.black {
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.horizontaline {
+    width: 66%;
+    height: 1px;
+    margin-left: 252px;
+    background-color: gray;
+}
+
+.the {
+    transform: rotate(-90deg);
+    font-size: 20px;
+    display: block;
+    font-family: 'PT Serif', serif;
+    /* margin-top: 1%; */
+    color: grey;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 4px;
+}
+
+@media screen and (min-width:0px) and (max-width:400px) {
+    .three {
+        display: block;
+        width: 50px;
+        height: 40px;
+        position: relative;
+        left: 290px;
+        bottom: 50px;
+        border-radius: 10px;
+    }
+
+    .hrm {
+        display: block;
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav1 {
+        display: flex;
+        border-radius: 5px;
+        flex-direction: column;
+        gap: 2px;
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 350px;
+        margin-bottom: 0px;
+        background-color: rgb(168, 166, 166);
+    }
+
+    .black {
+        font-size: 20px;
+        margin-left: -22px;
+    }
+
+    .horizontaline {
+        display: none;
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        margin-left: -192px;
+        margin-top: 2px;
+        height: 50px;
+        padding-bottom: 20px solid rgb(212, 31, 31);
+    }
+    #pc{
+        display: block;
+        background-color: gray;
+        margin-top: -40px; 
+        width: 375px;
+        height: 3px;
+    }
+    .the {
+        transform: rotate(-90deg);
+        font-size: 20px;
+        font-family: 'PT Serif', serif;
+        margin-top: 1%;
+        color: rgb(89, 87, 87);
+    }
+
+}
+
+@media screen and (min-width:400px) and (max-width:800px) {
+    /* .nav {
+        display: flex;
+        gap: 10px;
+        margin-left: 30px;
+        width: 1200px;
+    } */
+    #pc{
+        display: none;
+    }
+    .nav1 {
+        display: none;
+    }    
+    /* .top {
+        border-bottom: 2px solid gray;
+    }
+
+    .the {
+        font-size: 50px;
+    }
+
+    .heading {
+        font-size: 60px;
+        margin-left: 400px;
+    }
+
+    .black {
+        font-size: 35px;
+    }
+
+    .horizontaline {
+        width: 1200px;
+        margin-left: 60px;
+    } */
+}

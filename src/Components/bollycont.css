@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: black;
+}
+
+#plot1 {
+    display: none;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.insidehead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.insides {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 22px;
+}
+
+.logos {
+    height: 90px;
+    width: 90px;
+    margin-top: -22px;
+}
+
+.gl {
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.content {
+    height: fit-content;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.castandmovie {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.cast {
+    text-align: justify;
+    margin-left: -95px;
+}
+
+.movie1 {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-left: -299px;
+}
+
+li {
+    font-size: 27px;
+    text-align: left;
+}
+
+.cast1 {
+    text-align: justify;
+    margin-left: -68px;
+}
+
+.cast2 {
+    text-align: justify;
+    margin-left: -162px;
+}
+
+.cast3 {
+    text-align: justify;
+    margin-left: -122px;
+}
+
+@media (max-width:400px) {
+    .gl {
+        margin-top: 20px;
+    }
+
+    /* .bolimg {
+        width: 320px;
+        height: 300px;
+        margin-left: -30px;
+    } */
+
+    .avatar {
+        height: 50px;
+        width: 50px;
+        margin-top: 2px;
+    }
+
+    .gray {
+        /* display: none; */
+        width: 350px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+
+    .castandmovie {
+        display: none;
+    }
+
+    #plot1 {
+        display: block;
+        margin-left: 20px;
+    }
+
+    #plot {
+        display: none;
+    }
+}
+
+/* @media (min-width:400px) and (max-width:800px) {
+    .gl {
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .avatar {
+        height: 40px;
+        width: 40px;
+        margin-top: 2px;
+    }
+
+    .distance {
+        line-height: 16px;
+    }
+
+    .logos {
+        height: 60px;
+        width: 60px;
+        margin-top: -2px;
+    }
+
+    .bolimg {
+        margin-left: 0px;
+        /* height:350px;
+        width: 550px; */
+   /* }
+
+    #plot {
+        display: none;
+    }
+
+    #plot1 {
+        margin-left: 10px;
+        margin-top: 5%;
+    }
+
+    .castandmovie {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-left: 200px;
+    }
+
+    .movie1 {
+        margin-left: 320px;
+        margin-top: -122px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .h3 {
+        margin-left: -260px;
+    }
+
+    .cast1 {
+        margin-left: -100px;
+    }
+
+    .cast2 {
+        margin-left: -89px;
+    }
+
+    .cast3 {
+        margin-left: -89px;
+    }
+
+    .containercontent {
+        gap: 82px;
+    }
+
+    .advertisement {
+        height: 800px;
+        width: 900px;
+        margin-left: 20px;
+    }
+
+    #plot1 {
+        display: block;
+        margin-left: -92px;
+    }
+
+    .content {
+        margin-left: 72px;
+        width: 600px;
+    }
+
+    .gray {
+        background-color: aliceblue;
+        width: 720px;
+        margin-left: 30px;
+    }
+
+} */
